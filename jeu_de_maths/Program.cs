@@ -4,6 +4,12 @@ namespace MyApp
 {
     internal class Program
     {
+        enum e_Operateur
+        {
+            ADDITION = 1,
+            MULTIPLICATION = 2,
+            SOUSTRACTION = 3
+        }
         static bool PoserQuestion(int min, int max)
         {
             Random rand = new Random();
@@ -13,19 +19,28 @@ namespace MyApp
             {
                 int a = rand.Next(min, max+1);
                 int b = rand.Next(min, max+1);
-                int o = rand.Next(1, 3);
+                e_Operateur o = (e_Operateur)rand.Next(1, 4);
                 int resultatAttendu;
 
-                if (o == 1)
+                switch(o)
                 {
-                    Console.Write(a + " + " + b + " = ");
-                    resultatAttendu = a + b;
+                    case e_Operateur.ADDITION:
+                        Console.Write(a + " + " + b + " = ");
+                        resultatAttendu = a + b;
+                        break;
+                    case e_Operateur.MULTIPLICATION:
+                        Console.Write(a + " x " + b + " = ");
+                        resultatAttendu = a * b;
+                        break;
+                    case e_Operateur.SOUSTRACTION:
+                        Console.Write(a + " - " + b + " = ");
+                        resultatAttendu = a - b;
+                        break;
+                    default:
+                        Console.WriteLine("ERREUR: opérateur inconnu");
+                        return false;
                 }
-                else
-                {
-                    Console.Write(a + " x " + b + " = ");
-                    resultatAttendu = a * b;
-                }
+
                 string reponse = Console.ReadLine();
 
                 try
