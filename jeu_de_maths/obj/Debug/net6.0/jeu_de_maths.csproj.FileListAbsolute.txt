@@ -1,0 +1,15 @@
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\bin\Debug\net6.0\jeu_de_maths.exe
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\bin\Debug\net6.0\jeu_de_maths.deps.json
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\bin\Debug\net6.0\jeu_de_maths.runtimeconfig.json
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\bin\Debug\net6.0\jeu_de_maths.dll
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\bin\Debug\net6.0\jeu_de_maths.pdb
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.csproj.AssemblyReference.cache
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.AssemblyInfoInputs.cache
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.AssemblyInfo.cs
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.csproj.CoreCompileInputs.cache
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.dll
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\refint\jeu_de_maths.dll
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.pdb
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\jeu_de_maths.genruntimeconfig.cache
+C:\Users\joeld\OneDrive\Bureau\Udemy\Développeur C#  Formation complète 2023\Mes codes\jeu_de_maths\jeu_de_maths\obj\Debug\net6.0\ref\jeu_de_maths.dll
