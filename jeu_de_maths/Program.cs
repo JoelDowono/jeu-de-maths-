@@ -13,14 +13,25 @@ namespace MyApp
             {
                 int a = rand.Next(min, max+1);
                 int b = rand.Next(min, max+1);
+                int o = rand.Next(1, 3);
+                int resultatAttendu;
 
-                Console.Write(a + " + " + b + " = ");
+                if (o == 1)
+                {
+                    Console.Write(a + " + " + b + " = ");
+                    resultatAttendu = a + b;
+                }
+                else
+                {
+                    Console.Write(a + " x " + b + " = ");
+                    resultatAttendu = a * b;
+                }
                 string reponse = Console.ReadLine();
 
                 try
                 {
                     reponseInt = int.Parse(reponse);
-                    if(reponseInt == a + b)
+                    if(reponseInt == resultatAttendu)
                     {
                         return true;
                     }
