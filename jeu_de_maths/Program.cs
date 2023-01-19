@@ -37,8 +37,9 @@ namespace MyApp
         {
             const int NOMBRE_MIN = 1;
             const int NOMBRE_MAX = 10;
-            const int NB_QUESTIONS = 3;
+            const int NB_QUESTIONS = 5;
             int points = 0;
+            int moyenne = NB_QUESTIONS / 2;
 
             for (int i = 0; i < NB_QUESTIONS; i++)
             {
@@ -57,6 +58,22 @@ namespace MyApp
             }
             Console.WriteLine("Nombre de points : " + points);
             
+            if(points == NB_QUESTIONS)
+            {
+                Console.WriteLine("Exellent");
+            }
+            else if(points == 0)
+            {
+                Console.WriteLine("Révisez vos maths");
+            }
+            else if (points > moyenne)
+            {
+                Console.WriteLine("pas mal");
+            }
+            else if(points <= moyenne)
+            {
+                Console.WriteLine("Peux mieux faire");
+            }
         }
     }
 }
