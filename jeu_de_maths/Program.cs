@@ -38,6 +38,7 @@ namespace MyApp
             const int NOMBRE_MIN = 1;
             const int NOMBRE_MAX = 10;
             const int NB_QUESTIONS = 3;
+            int points = 0;
 
             for (int i = 0; i < NB_QUESTIONS; i++)
             {
@@ -46,12 +47,15 @@ namespace MyApp
                 if (bonneReponse)
                 {
                     Console.WriteLine("Bonne réponse");
+                    points++;
                 }
                 else
                 {
                     Console.WriteLine("Mauvaise réponse");
                 }
+                Console.WriteLine();
             }
+            Console.WriteLine("Nombre de points : " + points);
             
         }
     }
